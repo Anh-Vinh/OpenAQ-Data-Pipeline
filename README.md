@@ -20,6 +20,7 @@ The pipeline follows a layered approach:
 * **Data Source**: OpenAQ API
 
 ## Architecture
+```id="a2z8xq"
 OpenAQ API
     ↓
 Airflow (Orchestration)
@@ -31,3 +32,4 @@ Spark Jobs (Transformations)
 MinIO (Silver - Structured Data)
     ↓
 PostgreSQL (Gold - Final Tables)
+```
