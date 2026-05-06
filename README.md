@@ -1,7 +1,6 @@
 # OpenAQ-Data-Pipeline
 An end-to-end data pipeline that ingests, processes, and loads air quality data from the OpenAQ API using Apache Airflow, Apache Spark, and MinIO.
 
----
 ## Overview
 This project builds a **modular and scalable ETL pipeline** for air quality data. It demonstrates how to orchestrate workflows, process large datasets, and design reliable data pipelines using modern data engineering tools.
 
@@ -11,8 +10,6 @@ The pipeline follows a layered approach:
 * **Silver** → Cleaned and structured data
 * **Gold** → Analytics-ready tables in PostgreSQL
 
----
-
 ## Tech Stack
 
 * **Orchestration**: Apache Airflow
@@ -21,8 +18,6 @@ The pipeline follows a layered approach:
 * **Database**: PostgreSQL
 * **Containerization**: Docker & Docker Compose
 * **Data Source**: OpenAQ API
-
----
 
 ## Architecture
 OpenAQ API
@@ -36,4 +31,3 @@ Spark Jobs (Transformations)
 MinIO (Silver - Structured Data)
     ↓
 PostgreSQL (Gold - Final Tables)
----
